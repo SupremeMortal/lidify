@@ -130,6 +130,7 @@ class DatabaseConnection:
         if not self.url:
             raise ValueError("DATABASE_URL not set")
         self.conn = psycopg2.connect(self.url)
+        self.conn.set_client_encoding('UTF8')
         self.conn.autocommit = False
         logger.info("Connected to PostgreSQL")
     
