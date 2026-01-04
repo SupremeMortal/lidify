@@ -1,7 +1,10 @@
-# Lidify
+# Lidify (Downstream)
 
-[![Docker Image](https://img.shields.io/docker/v/chevron7locked/lidify?label=Docker&sort=semver)](https://hub.docker.com/r/chevron7locked/lidify)
-[![GitHub Release](https://img.shields.io/github/v/release/Chevron7Locked/lidify?label=Release)](https://github.com/Chevron7Locked/lidify/releases)
+This is my downstream fork of [Lidify](https://github.com/Chevron7Locked/lidify) containing more bleeding-edge features 
+and fixes that haven't yet made it into the main project. Don't expect stability or meaningful versioning here - use at your own risk!
+
+[![Docker Images](https://img.shields.io/github/v/tag/SupremeMortal/lidify?sort=semver&label=Container%20Image)](https://github.com/SupremeMortal?tab=packages&tab=packages&q=lidify)
+[![GitHub Release](https://img.shields.io/github/v/tag/SupremeMortal/lidify?label=Release&sort=semver)](https://github.com/Chevron7Locked/lidify/releases)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 A self-hosted, on-demand audio streaming platform that brings the Spotify experience to your personal music library.
